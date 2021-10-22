@@ -27,7 +27,7 @@ src/analyzer.py:
 writing/report.md:
     ConfirmFileExists
     CountFileWords --count 500
-    CountMarkdownTags --tag "heading" --count 11 --exact
+    CountMarkdownTags --tag "heading" --count 10 --exact
     #CountMarkdownTags --tag "code" --count 3 --exact
     CountMarkdownTags --tag "code_block" --count 2
     CountMarkdownTags --tag "list" --count 1

@@ -35,8 +35,8 @@ writing/report.md:
     #CountMarkdownTags --tag "code" --count 3 --exact
     CountMarkdownTags --tag "code_block" --count 1
     CountMarkdownTags --tag "list" --count 1
-    MatchFileFragment --fragment "Your Names" --count 0 --exact
+    MatchFileFragment --fragment "Add Your Name" --count 0 --exact
     MatchFileFragment --fragment "TODO" --count 0 --exact
 
 # --> check that the number of commits in the Git repository is beyond a threshold
-CountCommits --count 20
+CountCommits --count 30

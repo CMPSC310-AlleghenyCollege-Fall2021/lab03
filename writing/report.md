@@ -1,4 +1,4 @@
-# Report by Your Name
+# Report by Add Your Name
 
 ## Completed Timeline (Due by Monday, October 25 11:30am)
 
@@ -41,7 +41,6 @@ Describe the experiments you conducted to evaluate text generation and text anal
 
 TODO:
 Describe the supplemental production you have created. Include an image if relevant.
-
 
 ## Challenges and Learning Experiences
 

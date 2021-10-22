@@ -75,7 +75,7 @@ To generate relevant science fiction text you first need relevant data. There ar
 
 ### Text Generation using Tensorflow
 
-**Once you have the relevant data, you are to use `tensorflow` and a machine learning algorithm of your choice that is based on the idea of neural networks to automatically generate synopsis for a science fiction show.** While your generated text does not need to be structurally or grammatically correct, it should produce some phrases that can be used to extract meaning of what the episode of a show might be about.
+**Once you have the relevant data, you are to use `tensorflow` and a machine learning algorithm of your choice that is based on the idea of neural networks to automatically generate synopsis for a science fiction show.** While your generated text does not need to be structurally or grammatically correct, it should produce some phrases that can be used to extract meaning of what the episode of a show might be about. You should run experiments to evaluate and improve your implementation.
 
 There are many examples and tutorials for generating text using `tensorflow`. There are also some existing projects that provide tools to automatically generate text. For example, [textgenrnn project](https://github.com/minimaxir/textgenrnn) uses recurrent neural network and allow you to train the model on new text relatively easily (see basic example code in the repository). A more recent approach is to use unsupervised learning, `tensorflow` and neural networks to create an AI-based text-generation model, called GPT, which is trained on huge amounts of text all around the internet. [gpt-2 simple](https://github.com/minimaxir/gpt-2-simple) is a Python package which provides many functionalities for model management and generation control, allowing you to easily fine tune GPT-2 on your text.
 
@@ -83,7 +83,7 @@ You will need to either install `tensorflow` locally or via Docker, please refer
 
 ### Text Analysis
 
-**After you have an automatically generated text, you will automatically analyze it.** Here, you are free to select any natural processing task, as long as it extracts some information about your generated text. For example, you can get information about POS or NER or perform a sentiment analysis on your generated text. Fell free to explore and use one of the natural language processing libraries, such as [nltk](https://www.nltk.org/) or [nlp](https://nlp.stanford.edu/) to easily accomplish these tasks.
+**After you have an automatically generated text, you will automatically analyze it.** Here, you are free to select any natural processing task, as long as it extracts some information about your generated text. For example, you can get information about POS or NER or perform a sentiment analysis on your generated text. Fell free to explore and use one of the natural language processing libraries, such as [nltk](https://www.nltk.org/) or [nlp](https://nlp.stanford.edu/) to easily accomplish these tasks. You need to then run experiments to evaluate this part of your implementation.
 
 ### Supplemental Production
 

@@ -30,7 +30,11 @@ Text Here
 ## Text Analysis
 
 TODO:
-Describe the techniques used for an automated text analysis of your automated script synopsis. Cite (provide a link to) any sources you have used. Include a graph or textual output of your analysis.
+Describe the techniques used for an automated text analysis of your automated script synopsis. Cite (provide a link to) any sources you have used. Include a graph or textual output of your analysis. Include your output below.
+
+```
+Output Here
+```
 
 ## Experimental Analysis
 

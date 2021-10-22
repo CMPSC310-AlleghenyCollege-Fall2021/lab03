@@ -206,13 +206,20 @@ Once you have typed this command, you can use the [GatorGrader tool](https://git
 In addition to meeting all of the main requirements outlined in the assignment sheet, your submission must pass the following checks mainly related to writing and the number of commits that [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically assesses. If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated checks pass correctly, the tool will produce the output similar to the one below.
 
 ```
-✔  The report.md in writing has at least 1 of the 'list' tag
-✔  The report.md in writing has exactly 0 of the 'Add Your Names Here' fragment
-✔  The report.md in writing has at least 250 word(s) in total
-✔  The report.md in writing has exactly 7 of the 'heading' tag
+✔  The file analyzer.py exists in the src directory
 ✔  The file report.md exists in the writing directory
+✔  The report.md in writing has at least 500 word(s) in total
+✔  The report.md in writing has exactly 11 of the 'heading' tag
+✔  The repository has at least 30 commit(s)
+✔  The analyzer.py in src has exactly 0 of the 'TODO' fragment
+✔  The report.md in writing has at least 2 of the 'code_block' tag
+✔  The report.md in writing has at least 1 of the 'list' tag
 ✔  The report.md in writing has exactly 0 of the 'TODO' fragment
-✔  The repository has at least 25 commit(s)
+✔  The generator.py in src has exactly 0 of the 'Your Name' fragment
+✔  The analyzer.py in src has exactly 0 of the 'Your Names' fragment
+✔  The generator.py in src has exactly 0 of the 'TODO' fragment
+✔  The report.md in writing has exactly 0 of the 'Add Your Name' fragment
+✔  The file generator.py exists in the src directory
 ```
 
 ## Receiving Assistance

@@ -17,14 +17,10 @@ indent: 4
 # --> check the source code for various characteristics
 src/generator.py:
             ConfirmFileExists
-            CountSingleLineComments --language Java --count 2
-            #CountMultipleLineComments --language Java --count 2
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "Your Name" --count 0 --exact
 src/analyzer.py:
             ConfirmFileExists
-            CountSingleLineComments --language Java --count 2
-            #CountMultipleLineComments --language Java --count 2
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "Your Name" --count 0 --exact
 # --> check the technical writing for various characteristics
@@ -33,7 +29,7 @@ writing/report.md:
     CountFileWords --count 500
     CountMarkdownTags --tag "heading" --count 11 --exact
     #CountMarkdownTags --tag "code" --count 3 --exact
-    CountMarkdownTags --tag "code_block" --count 1
+    CountMarkdownTags --tag "code_block" --count 2
     CountMarkdownTags --tag "list" --count 1
     MatchFileFragment --fragment "Add Your Name" --count 0 --exact
     MatchFileFragment --fragment "TODO" --count 0 --exact
